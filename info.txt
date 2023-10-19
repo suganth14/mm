@@ -1,0 +1,11 @@
+Classical EOQ -> K, D, h
+Price break -> price break will be given
+Multi-storage -> many storage area value
+Dynamic EOQ without setup -> Regular, Overtime
+Dynamic EOQ with setup -> K, D, h ,x1 will be given, production cost will be given 
+Siver Meal -> K,D,h and production cost
+Probabilitized -> Buffer stock size, Alpha
+Probabilistic -> Demand during lead time f(x) -> pdf 
+Single Period with no setup -> not available -> finding range for penalty
+Single with setup cost -> penalty given with setup cost
+Multi-period -> discount factor, selling price
