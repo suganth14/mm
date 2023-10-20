@@ -7,5 +7,5 @@ Siver Meal -> K,D,h and production cost
 Probabilitized -> Buffer stock size, Alpha
 Probabilistic -> Demand during lead time f(x) -> pdf 
 Single Period with no setup -> not available -> finding range for penalty
-Single with setup cost -> penalty given with setup cost
+Single with setup cost (s_s.py) -> penalty given with setup cost
 Multi-period -> discount factor, selling price
