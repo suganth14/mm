@@ -10,3 +10,21 @@ EMI:
   Interest paid = P*r
   Capital repaid = Installment amount - Interest paid
   Outstanding balance = Outstanding balance - Capital repaid
+
+df = pd.read_csv(
+    infile,
+    parse_dates=['My DateTime']
+)
+
+df = pd.read_csv(
+    infile,
+    parse_dates=['My DateTime'],
+    date_format={'My DateTime': '%Y-%m-%d %H:%M:%S'}
+)
+
+df = pd.read_csv(
+    infile,
+    parse_dates={'mydatetime': ['My Date', 'My Time']},
+    # mydatetime will contain my_date and my_time separated by a single space
+    date_format={'mydatetime': '%Y-%m-%d %H:%M:%S'}
+)
