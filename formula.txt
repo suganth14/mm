@@ -1,0 +1,12 @@
+Simple Interest:
+  Value of investment at time t V(t) = (1+tr)P
+Compound interest:
+  V(t) = P.(1+ r/m)^tm
+Cont. Compunding:
+  V(t) = P.e^rt
+EMI:
+  PA(r,n) = (1 - (1+r)^-n)/r
+  Installment amt = P/PA(r,n)
+  Interest paid = P*r
+  Capital repaid = Installment amount - Interest paid
+  Outstanding balance = Outstanding balance - Capital repaid
