@@ -3,6 +3,7 @@ MM2.py
 capital_asset_pricing_model.py
 classic_eoq.py
 dynamic_no_setup-b.py
+dynamic_no_setup-ca2.py
 dynamic_no_setup-s.py
 dynamic_setup.py
 efficient_frontier.py
